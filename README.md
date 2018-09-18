@@ -34,3 +34,17 @@ Derived constraints:
   and are not familiar with version control systems or unit testing.
 - Learners know how to use a text editor
   but have never used an IDE.
+
+## Learners' Questions
+
+- What are R's basic data types and how do they compare to Python's?
+- How do conditionals and loops work in R compared to Python?
+- How do indexing and attribute access work in R?
+- How do I create functions and libraries?
+- How do I find and install libraries and get help on them?
+- How do I process text with regular expressions?
+- How is tabular data represented and manipulated?
+- How do I load a tabular dataset and calculate simple statistics for each column?
+- How do I filter, aggregate, and join datasets?
+- How do I create plots?
+- How do I create literate programs in R?
