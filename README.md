@@ -43,8 +43,16 @@ Derived constraints:
 - How do I create functions and libraries?
 - How do I find and install libraries and get help on them?
 - How do I process text with regular expressions?
-- How is tabular data represented and manipulated?
+- How do I store and manipulate tabular data?
 - How do I load a tabular dataset and calculate simple statistics for each column?
 - How do I filter, aggregate, and join datasets?
 - How do I create plots?
-- How do I create literate programs in R?
+- How do I write readable programs in R?
+
+## Exercises
+
+### Tidying Data
+
+Look at the CSV files in the directory `maternal_health/raw`
+(which are taken from three sheets in the Excel spreadsheet also located in that directory).
+Write a single script that tidies all three files to create files with the same names in `maternal_health/tidy`.
