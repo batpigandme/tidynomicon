@@ -53,6 +53,15 @@ Derived constraints:
 
 ### Tidying Data
 
-Look at the CSV files in the directory `maternal_health/raw`
-(which are taken from three sheets in the Excel spreadsheet also located in that directory).
-Write a single script that tidies all three files to create files with the same names in `maternal_health/tidy`.
+Look at the CSV file `infant_hiv/raw/infant-hiv.csv`
+(which are taken from the Excel spreadsheet located in the same directory).
+Write an R script that tidies this data and store the results in `infant_hiv/tidy/infant-hiv.csv`.
+
+### Making Reusable Code
+
+Look at the three CSV files `maternal_health/raw/*.csv`
+(which are taken from the Excel spreadsheet located in the same directory).
+Using your solution to the previous exercise as a starting point,
+write some functions to help you tidy up CSV files that are formatted this way,
+and then use those functions in an R script that tidies these three files
+and stores the results in `maternal_health/tidy/*.csv`.
